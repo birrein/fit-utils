@@ -1,3 +1,20 @@
+"""
+Heart Rate Data Comparison Script
+
+This script reads heart rate data from two FIT files and plots a comparison between the two data sets.
+
+Usage:
+    1. Ensure you have the `fitparse` and `matplotlib` libraries installed.
+       You can install these using pip:
+       $ pip install fitparse matplotlib
+
+    2. Place the FIT files in a directory named 'fit' in the same directory as this script.
+       Update the file paths in the `main` function if necessary.
+
+    3. Run the script:
+       $ python script_name.py
+
+"""
 import fitparse
 import matplotlib.pyplot as plt
 
